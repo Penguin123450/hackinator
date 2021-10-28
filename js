@@ -109,5 +109,3 @@ if (text == "tower") {
   if (towerprompt == "lwis")
     fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/tower-of-doom/lowerEnemyWisdom.js").then((res) => res.text().then((t) => eval(t)))
 }
-
-else (alert("Not one of the options! Check if you made a typo and try again!"))
