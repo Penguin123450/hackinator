@@ -1,4 +1,4 @@
-let text = prompt("[This hack was made by glizzy] Please enter the gamemode:", "global, cafe, kindgom, crypto, factory, fish, gold, race, TD, tower");
+let text = prompt("This hack was made by glizzy! Please enter the gamemode:", "global, cafe, kindgom, crypto, factory, fish, gold, race, TD, tower");
 
 if (text == "global") {
   globalprompt = prompt("Which one?", "token, random, flood, allblooks, answer, spamopen, selldupe")
