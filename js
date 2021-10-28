@@ -1,7 +1,7 @@
-let text = prompt("This hack was made by glizzy! Please enter the gamemode:", "global, cafe, kindgom, crypto, factory, fish, gold, race, TD, tower");
+let text = prompt("This hack was made by glizzy! Please choose the gamemode out of these:", "global, cafe, kindgom, crypto, factory, fish, gold, race, TD, tower");
 
 if (text == "global") {
-  globalprompt = prompt("Which one?", "token, random, flood, allblooks, answer, spamopen, selldupe")
+  globalprompt = prompt("Which one out of these?", "token, random, flood, allblooks, answer, spamopen, selldupe")
   if (globalprompt == "token")
     fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/global/addTokens.js").then((res) => res.text().then((t) => eval(t)))
   if (globalprompt == "random")
@@ -19,7 +19,7 @@ if (text == "global") {
 
 }
 if (text == "cafe") {
-  cafeprompt = prompt("Which one?", "end, coins, foodlvl, stock")
+  cafeprompt = prompt("Which one out of these?", "end, coins, foodlvl, stock")
   if (cafeprompt == "end")
     fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/cafe/endGame.js").then((res) => res.text().then((t) => eval(t)))
   if (cafeprompt == "coins")
@@ -31,7 +31,7 @@ if (text == "cafe") {
 }
 
 if (text == "kingdom") {
-  kingdomprompt = prompt("Which one?", "ESP, maxres, notax, setguest, skip")
+  kingdomprompt = prompt("Which one out of these?", "ESP, maxres, notax, setguest, skip")
   if (kingdomprompt == "ESP")
     fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/crazy-kingdom/ChoiceESP.js").then((res) => res.text().then((t) => eval(t)))
   if (kingdomprompt == "maxres")
@@ -45,7 +45,7 @@ if (text == "kingdom") {
 }
 
 if (text == "crypto") {
-  cryptoprompt = prompt("Which one?", "coins, hackpass")
+  cryptoprompt = prompt("Which one out of these?", "coins, hackpass")
   if (cryptoprompt == "coins")
     fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/crypto/getCrypto.js").then((res) => res.text().then((t) => eval(t)))
   if (cryptoprompt == "hackpass")
@@ -53,7 +53,7 @@ if (text == "crypto") {
 }
 
 if (text == "factory") {
-  factoryprompt = prompt("Which one?", "coins, megabot")
+  factoryprompt = prompt("Which one out of these?", "coins, megabot")
   if (factoryprompt == "coins")
     fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/factory/getCash.js").then((res) => res.text().then((t) => eval(t)))
   if (factoryprompt == "megabot")
@@ -67,7 +67,7 @@ if (text == "fish") {
 }
 
 if (text == "gold") {
-  goldprompt = prompt("Which one?", "gold, ESP")
+  goldprompt = prompt("Which one out of these?", "gold, ESP")
   if (goldprompt == "gold")
     fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/gold/getGold.js").then((res) => res.text().then((t) => eval(t)))
   if (goldprompt == "ESP")
@@ -81,7 +81,7 @@ if (text == "race") {
 }
 
 if (text == "TD") {
-  TDprompt = prompt("Which one?", "allfree, gameround, clearenem, coins, ducks, obstac, setprice")
+  TDprompt = prompt("Which one out of these?", "allfree, gameround, clearenem, coins, ducks, obstac, setprice")
   if (TDprompt == "allfree")
     fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/tower-defense/allFree.js").then((res) => res.text().then((t) => eval(t)))
   if (TDprompt == "gameround")
@@ -109,3 +109,5 @@ if (text == "tower") {
   if (towerprompt == "lwis")
     fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/tower-of-doom/lowerEnemyWisdom.js").then((res) => res.text().then((t) => eval(t)))
 }
+
+else (alert("Not one of the options! Check if you made a typo and try again!"))
