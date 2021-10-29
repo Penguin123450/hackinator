@@ -99,7 +99,7 @@ if (text == "TD") {
 }
 
 if (text == "tower") {
-  towerprompt = prompt("Which one?", "coins, lchar, lstr, lwis")
+  towerprompt = prompt("Which one?", "coins, lchar, lstr, lwis, lall")
   if (towerprompt == "coins")
     fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/tower-of-doom/addCoins.js").then((res) => res.text().then((t) => eval(t)))
   if (towerprompt == "lchar")
@@ -108,4 +108,6 @@ if (text == "tower") {
     fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/tower-of-doom/lowerEnemyStrength.js").then((res) => res.text().then((t) => eval(t)))
   if (towerprompt == "lwis")
     fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/tower-of-doom/lowerEnemyWisdom.js").then((res) => res.text().then((t) => eval(t)))
+  if (towerprompt == "lall") 
+    fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/tower-of-doom/lowerAllEnemyStats.js").then((res) => res.text().then((t) => eval(t)))
 }
