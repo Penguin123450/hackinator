@@ -22,4 +22,10 @@ javascript:fetch("https://raw.githubusercontent.com/Penguin123450/hackinator/mai
 ![image](https://user-images.githubusercontent.com/92130749/140464394-9f13b356-9aa3-4ca9-b3d7-08a795ec447e.png)
 
 
+Alternatively, you can highlight the code and drag it into your bookmarks bar.
+
+![image](https://user-images.githubusercontent.com/92130749/140588936-db9a3b65-fa83-4075-bf04-436074ed4efd.png)
+
+![image](https://user-images.githubusercontent.com/92130749/140589129-28130c7d-5687-419b-9977-1b430e32200a.png)
+
 Now, whenever you want to run the code, just click the bookmarklet!
