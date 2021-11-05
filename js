@@ -1,7 +1,7 @@
 let firstprompt = prompt("Which hack do you want of these?", "Blooket, Quizizz, Kahoot, Quizlet")
 
 if (firstprompt == "Kahoot") {
-  let kahoottext = prompt("Which hack do you want?", "BotFlood")
+  let kahoottext = prompt("Which hack do you want? (BotFlood by FruedDued)", "BotFlood")
   if (kahoottext == "BotFlood")
     fetch('https://thatfrueddued.github.io/kahoot-smasher/Kahoot.js').then(function(response) {
       response.text().then(function(text) {
