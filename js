@@ -686,21 +686,14 @@ if (firstprompt == "Blooket") {
   }
 
   if (text == "TD") {
-    TDprompt = prompt("Which one out of these?", "allfree, gameround, clearenem, coins, ducks, obstac, setprice")
-    if (TDprompt == "allfree")
-      fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/tower-defense/allFree.js").then((res) => res.text().then((t) => eval(t)))
+    TDprompt = prompt("Which one out of these?", "gameround, clearenem, coins")
     if (TDprompt == "gameround")
       fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/tower-defense/changeGameRound.js").then((res) => res.text().then((t) => eval(t)))
     if (TDprompt == "clearenem")
       fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/tower-defense/clearEnemies.js").then((res) => res.text().then((t) => eval(t)))
     if (TDprompt == "coins")
       fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/tower-defense/getCash.js").then((res) => res.text().then((t) => eval(t)))
-    if (TDprompt == "ducks")
-      fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/tower-defense/removeDucks.js").then((res) => res.text().then((t) => eval(t)))
-    if (TDprompt == "obstac")
-      fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/tower-defense/removeObsticles.js").then((res) => res.text().then((t) => eval(t)))
-    if (TDprompt == "setprice")
-      fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/tower-defense/removeObsticles.js").then((res) => res.text().then((t) => eval(t)))
+
   }
 
   if (text == "tower") {
