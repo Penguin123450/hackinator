@@ -603,110 +603,100 @@ if (firstprompt == "Quizizz") {
   fetch("https://raw.githubusercontent.com/gbaranski/quizizz-cheat/oldmethod/dist/bundle.js").then((res) => res.text().then((t) => eval(t)))
 }
 if (firstprompt == "Blooket") {
-  let text = prompt("This hack was made by glizzy! Please choose the gamemode out of these:", "global, cafe, kindgom, crypto, factory, fish, gold, race, TD, tower");
+  let text = prompt("This hack was made by glizzy! Please choose the gamemode out of these:", "global, cafe, kindgom, crypto, factory, fish, gold, race, TD, doom");
 
   if (text == "global") {
-    globalprompt = prompt("Which one out of these?", "token, random, flood, allblooks, answer, spamopen, selldupe")
+    globalprompt = prompt("Which one out of these?", "token, random, allblooks, answer, spamopen, selldupe")
     if (globalprompt == "token")
-      fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/global/addTokens.js").then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjEzL2dsb2JhbEFkZFRva2Vucy5qcw==')).then((res) => res.text().then((t) => eval(t)))
     if (globalprompt == "random")
-      fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/global/bypassRandomName.js").then((res) => res.text().then((t) => eval(t)))
-    if (globalprompt == "flood")
-      fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/global/floodGames.js").then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjEzL2dsb2JhbEJ5cGFzc1JhbmRvbU5hbWUuanM=')).then((res) => res.text().then((t) => eval(t)))
     if (globalprompt == "allblooks")
-      fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/global/getAllBlooksInGame.js").then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjEzL2dsb2JhbEdldEFsbEJsb29rcy5qcw==')).then((res) => res.text().then((t) => eval(t)))
     if (globalprompt == "answer")
-      fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/global/getEveryAnswerCorrect.js").then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjEzL2dsb2JhbEV2ZXJ5QW5zd2VyQ29ycmVjdC5qcw==')).then((res) => res.text().then((t) => eval(t)))
     if (globalprompt == "spamopen")
-      fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/global/spamOpenBoxes.js").then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjEzL2dsb2JhbFNwYW1PcGVuQm94ZXMuanM=')).then((res) => res.text().then((t) => eval(t)))
     if (globalprompt == "selldupe")
-      fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/global/sellDupeBlooks.js").then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDY2OTM2L2dsb2JhbFNlbGxEdXBlQmxvb2tzLmpz')).then((res) => res.text().then((t) => eval(t)))
 
   }
   if (text == "cafe") {
-    cafeprompt = prompt("Which one out of these?", "end, coins, foodlvl, stock")
-    if (cafeprompt == "end")
-      fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/cafe/endGame.js").then((res) => res.text().then((t) => eval(t)))
+    cafeprompt = prompt("Which one out of these?", "coins, foodlvl, stock")
     if (cafeprompt == "coins")
-      fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/cafe/getCoins.js").then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjE0L2NhZmVHZXRDb2lucy5qcw==')).then((res) => res.text().then((t) => eval(t)))
     if (cafeprompt == "foodlvl")
-      fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/cafe/infiniteFoodLevel.js").then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjE0L2NhZmVJbmZpbml0ZUZvb2RMZXZlbC5qcw==')).then((res) => res.text().then((t) => eval(t)))
     if (cafeprompt == "stock")
-      fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/cafe/stockInfiniteFood.js").then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjE0L2NhZmVTdG9ja0luZmluaXRlRm9vZC5qcw==')).then((res) => res.text().then((t) => eval(t)))
   }
 
   if (text == "kingdom") {
     kingdomprompt = prompt("Which one out of these?", "ESP, maxres, notax, setguest, skip")
     if (kingdomprompt == "ESP")
-      fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/crazy-kingdom/ChoiceESP.js").then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDY3MTY3L2NrQ2hvaWNlRVNQLmpz')).then((res) => res.text().then((t) => eval(t)))
     if (kingdomprompt == "maxres")
-      fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/crazy-kingdom/MaxResources.js").then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDY3MTY3L2NrTWF4UmVzb3VyY2VzLmpz')).then((res) => res.text().then((t) => eval(t)))
     if (kingdomprompt == "notax")
-      fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/crazy-kingdom/NoTaxes.js").then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDY3MTY3L2NrTm9UYXhlcy5qcw==')).then((res) => res.text().then((t) => eval(t)))
     if (kingdomprompt == "setguest")
-      fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/crazy-kingdom/SetGuests.js").then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDY3MTY3L2NrU2V0R3Vlc3RzLmpz')).then((res) => res.text().then((t) => eval(t)))
     if (kingdomprompt == "skip")
-      fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/crazy-kingdom/SkipGuest.js").then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDY3MTY3L2NrU2tpcEd1ZXN0cy5qcw==')).then((res) => res.text().then((t) => eval(t)))
   }
 
   if (text == "crypto") {
     cryptoprompt = prompt("Which one out of these?", "coins, hackpass")
     if (cryptoprompt == "coins")
-      fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/crypto/getCrypto.js").then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjE0L2NyeXB0b0dldENyeXB0by5qcw==')).then((res) => res.text().then((t) => eval(t)))
     if (cryptoprompt == "hackpass")
-      fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/crypto/getOtherUsersPassword.js").then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjEzL2NyeXB0b0hhY2tQYXNzd29yZHMuanM=')).then((res) => res.text().then((t) => eval(t)))
   }
 
   if (text == "factory") {
     factoryprompt = prompt("Which one out of these?", "coins, megabot")
     if (factoryprompt == "coins")
-      fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/factory/getCash.js").then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjEzL2ZhY3RvcnlHZXRDYXNoLmpz')).then((res) => res.text().then((t) => eval(t)))
     if (factoryprompt == "megabot")
-      fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/factory/getMegaBot.js").then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjEzL2ZhY3RvcnlHZXRNZWdhQm90Lmpz')).then((res) => res.text().then((t) => eval(t)))
   }
 
   if (text == "fish") {
     fishprompt = prompt("setweight")
     if (fishprompt == "setweight")
-      fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/fishing-frenzy/setWeight.js").then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjEzL2Zpc2hpbmdGcmVuenlTZXRXZWlnaHQuanM=')).then((res) => res.text().then((t) => eval(t)))
   }
 
   if (text == "gold") {
     goldprompt = prompt("Which one out of these?", "gold, ESP")
     if (goldprompt == "gold")
-      fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/gold/getGold.js").then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjEzL2dvbGRHZXRHb2xkLmpz')).then((res) => res.text().then((t) => eval(t)))
     if (goldprompt == "ESP")
-      fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/gold/chest-ESP.js").then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjEzL2dvbGRDaGVzdEVTUC5qcw==')).then((res) => res.text().then((t) => eval(t)))
   }
 
   if (text == "race") {
     raceprompt = prompt("win")
     if (raceprompt == "win")
-      fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/racing/instantWin.js").then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjEzL3JhY2luZ0luc3RhbnRXaW4uanM=')).then((res) => res.text().then((t) => eval(t)))
   }
 
   if (text == "TD") {
     TDprompt = prompt("Which one out of these?", "gameround, clearenem, coins")
     if (TDprompt == "gameround")
-      fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/tower-defense/changeGameRound.js").then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjE0L3RkQ2hhbmdlR2FtZVJvdW5kLmpz')).then((res) => res.text().then((t) => eval(t)))
     if (TDprompt == "clearenem")
-      fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/tower-defense/clearEnemies.js").then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjEzL3RkQ2xlYXJFbmVtaWVzLmpz')).then((res) => res.text().then((t) => eval(t)))
     if (TDprompt == "coins")
-      fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/tower-defense/getCash.js").then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjEzL3RkR2V0Q2FzaC5qcw==')).then((res) => res.text().then((t) => eval(t)))
 
   }
 
-  if (text == "tower") {
-    towerprompt = prompt("Which one?", "coins, lchar, lstr, lwis, lall")
+  if (text == "doom") {
+    towerprompt = prompt("Which one?", "coins, lowerstats")
     if (towerprompt == "coins")
-      fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/tower-of-doom/addCoins.js").then((res) => res.text().then((t) => eval(t)))
-    if (towerprompt == "lchar")
-      fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/tower-of-doom/lowerEnemyCharisma.js").then((res) => res.text().then((t) => eval(t)))
-    if (towerprompt == "lstr")
-      fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/tower-of-doom/lowerEnemyStrength.js").then((res) => res.text().then((t) => eval(t)))
-    if (towerprompt == "lwis")
-      fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/tower-of-doom/lowerEnemyWisdom.js").then((res) => res.text().then((t) => eval(t)))
-    if (towerprompt == "lall")
-      fetch("https://raw.githubusercontent.com/glixzzy/blooket-hack/main/tower-of-doom/lowerAllEnemyStats.js").then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjE0L3RvZEFkZENvaW5zLmpz')).then((res) => res.text().then((t) => eval(t)))
+    if (towerprompt == "lowerstats")
+      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDY2OTkyL3RvZExvd2VyQWxsRW5lbXlTdGF0cy5qcw==')).then((res) => res.text().then((t) => eval(t)))
   }
 }
