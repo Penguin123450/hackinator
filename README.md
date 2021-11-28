@@ -1,8 +1,9 @@
-# NOTE: Blooket Recently Rolled Out A Patch For The Hacks. They may not work.
 
 # Hackinator
 
 This is a compilation of many hacks for websites such as Quizlet, Blooket, and Kahoot all in one bookmarklet. I did not make any of these, and credit to original creator should be found in the bookmarklet (hopefully).
+
+Note: Blooket has released a new update that does not let you use the bookmarklet anymore. You will have to go into the js file in github and copy the code over in the console.
 
 Bookmarklet:
 ```
