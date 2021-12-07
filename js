@@ -608,95 +608,96 @@ if (firstprompt == "Blooket") {
   if (text == "global") {
     globalprompt = prompt("Which one out of these?", "token, random, allblooks, answer, spamopen, selldupe")
     if (globalprompt == "token")
-      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjEzL2dsb2JhbEFkZFRva2Vucy5qcw==')).then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9nbG9iYWxBZGRUb2tlbnMuanNvbg==')).then(res => res.text()).then(t => eval(JSON.parse(t)));
     if (globalprompt == "random")
-      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjEzL2dsb2JhbEJ5cGFzc1JhbmRvbU5hbWUuanM=')).then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9nbG9iYWxCeXBhc3NOYW1lLmpzb24=')).then(res => res.text()).then(t => eval(JSON.parse(t)));
     if (globalprompt == "allblooks")
-      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjEzL2dsb2JhbEdldEFsbEJsb29rcy5qcw==')).then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9nbG9iYWxHZXRBbGxCbG9va3MuanNvbg==')).then(res => res.text()).then(t => eval(JSON.parse(t)));
     if (globalprompt == "answer")
-      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjEzL2dsb2JhbEV2ZXJ5QW5zd2VyQ29ycmVjdC5qcw==')).then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9nbG9iYWxFdmVyeUFuc3dlckNvcnJlY3QuanNvbg==')).then(res => res.text()).then(t => eval(JSON.parse(t)));
     if (globalprompt == "spamopen")
-      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjEzL2dsb2JhbFNwYW1PcGVuQm94ZXMuanM=')).then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9nbG9iYWxTcGFtT3BlbkJveGVzLmpzb24=')).then(res => res.text()).then(t => eval(JSON.parse(t)));
     if (globalprompt == "selldupe")
-      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDY2OTM2L2dsb2JhbFNlbGxEdXBlQmxvb2tzLmpz')).then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9nbG9iYWxTZWxsRHVwZUJsb29rcy5qc29u')).then(res => res.text()).then(t => eval(JSON.parse(t)));
 
   }
   if (text == "cafe") {
     cafeprompt = prompt("Which one out of these?", "coins, foodlvl, stock")
     if (cafeprompt == "coins")
-      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjE0L2NhZmVHZXRDb2lucy5qcw==')).then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9jYWZlR2V0Q29pbnMuanNvbg==')).then(res => res.text()).then(t => eval(JSON.parse(t)));
     if (cafeprompt == "foodlvl")
-      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjE0L2NhZmVJbmZpbml0ZUZvb2RMZXZlbC5qcw==')).then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9jYWZlSW5maW5pdGVGb29kTGV2ZWwuanNvbg==')).then(res => res.text()).then(t => eval(JSON.parse(t)));
     if (cafeprompt == "stock")
-      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjE0L2NhZmVTdG9ja0luZmluaXRlRm9vZC5qcw==')).then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9jYWZlU3RvY2tJbmZpbml0ZUZvb2QuanNvbg==')).then(res => res.text()).then(t => eval(JSON.parse(t)));
   }
 
   if (text == "kingdom") {
     kingdomprompt = prompt("Which one out of these?", "ESP, maxres, notax, setguest, skip")
     if (kingdomprompt == "ESP")
-      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDY3MTY3L2NrQ2hvaWNlRVNQLmpz')).then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9ja0Nob2ljZUVTUC5qc29u')).then(res => res.text()).then(t => eval(JSON.parse(t)));
     if (kingdomprompt == "maxres")
-      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDY3MTY3L2NrTWF4UmVzb3VyY2VzLmpz')).then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9ja01heFJlc291cmNlcy5qc29u')).then(res => res.text()).then(t => eval(JSON.parse(t)));
     if (kingdomprompt == "notax")
-      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDY3MTY3L2NrTm9UYXhlcy5qcw==')).then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9ja05vVGF4ZXMuanNvbg==')).then(res => res.text()).then(t => eval(JSON.parse(t)));
     if (kingdomprompt == "setguest")
-      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDY3MTY3L2NrU2V0R3Vlc3RzLmpz')).then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9ja1NldEd1ZXN0cy5qc29u')).then(res => res.text()).then(t => eval(JSON.parse(t)));
     if (kingdomprompt == "skip")
-      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDY3MTY3L2NrU2tpcEd1ZXN0cy5qcw==')).then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9ja1NraXBHdWVzdC5qc29u')).then(res => res.text()).then(t => eval(JSON.parse(t)));
   }
 
   if (text == "crypto") {
     cryptoprompt = prompt("Which one out of these?", "coins, hackpass")
     if (cryptoprompt == "coins")
-      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjE0L2NyeXB0b0dldENyeXB0by5qcw==')).then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9jcnlwdG9HZXRDcnlwdG8uanNvbg==')).then(res => res.text()).then(t => eval(JSON.parse(t)));
     if (cryptoprompt == "hackpass")
-      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjEzL2NyeXB0b0hhY2tQYXNzd29yZHMuanM=')).then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9jcnlwdG9HZXRPdGhlcnNQYXNzd29yZHMuanNvbg==')).then(res => res.text()).then(t => eval(JSON.parse(t)));
   }
 
   if (text == "factory") {
     factoryprompt = prompt("Which one out of these?", "coins, megabot")
     if (factoryprompt == "coins")
-      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjEzL2ZhY3RvcnlHZXRDYXNoLmpz')).then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9mYWN0b3J5R2V0Q2FzaC5qc29u')).then(res => res.text()).then(t => eval(JSON.parse(t)));
     if (factoryprompt == "megabot")
-      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjEzL2ZhY3RvcnlHZXRNZWdhQm90Lmpz')).then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9mYWN0b3J5R2V0TWVnYUJvdC5qc29u')).then(res => res.text()).then(t => eval(JSON.parse(t)));
   }
 
   if (text == "fish") {
     fishprompt = prompt("setweight")
     if (fishprompt == "setweight")
-      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjEzL2Zpc2hpbmdGcmVuenlTZXRXZWlnaHQuanM=')).then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9mclNldFdlaWdodC5qc29u')).then(res => res.text()).then(t => eval(JSON.parse(t)));
   }
 
   if (text == "gold") {
     goldprompt = prompt("Which one out of these?", "gold, ESP")
     if (goldprompt == "gold")
-      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjEzL2dvbGRHZXRHb2xkLmpz')).then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9nb2xkQ2hlc3RFU1AuanNvbg==')).then(res => res.text()).then(t => eval(JSON.parse(t)));
     if (goldprompt == "ESP")
-      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjEzL2dvbGRDaGVzdEVTUC5qcw==')).then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9nb2xkR2V0R29sZC5qc29u')).then(res => res.text()).then(t => eval(JSON.parse(t)));
   }
 
   if (text == "race") {
     raceprompt = prompt("win")
     if (raceprompt == "win")
-      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjEzL3JhY2luZ0luc3RhbnRXaW4uanM=')).then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS9yYWNpbmdJbnN0YW50V2luLmpzb24=')).then(res => res.text()).then(t => eval(JSON.parse(t)));
   }
 
   if (text == "TD") {
     TDprompt = prompt("Which one out of these?", "gameround, clearenem, coins")
     if (TDprompt == "gameround")
-      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjE0L3RkQ2hhbmdlR2FtZVJvdW5kLmpz')).then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS90ZENoYW5nZUdhbWVSb3VuZC5qc29u')).then(res => res.text()).then(t => eval(JSON.parse(t)));
     if (TDprompt == "clearenem")
-      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjEzL3RkQ2xlYXJFbmVtaWVzLmpz')).then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS90ZENsZWFyRW5lbWllcy5qc29u')).then(res => res.text()).then(t => eval(JSON.parse(t)));
     if (TDprompt == "coins")
-      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjEzL3RkR2V0Q2FzaC5qcw==')).then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS90ZEdldENhc2guanNvbg==')).then(res => res.text()).then(t => eval(JSON.parse(t)));
 
   }
 
   if (text == "doom") {
     towerprompt = prompt("Which one?", "coins, lowerstats")
     if (towerprompt == "coins")
-      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDUyMjE0L3RvZEFkZENvaW5zLmpz')).then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS90b2RBZGRDb2lucy5qc29u')).then(res => res.text()).then(t => eval(JSON.parse(t)));
     if (towerprompt == "lowerstats")
-      fetch(atob('aHR0cHM6Ly9yZXMuY2xvdWRpbmFyeS5jb20vc2Nob29sLWNoZWF0cy9yYXcvdXBsb2FkL3YxNjM3NDY2OTkyL3RvZExvd2VyQWxsRW5lbXlTdGF0cy5qcw==')).then((res) => res.text().then((t) => eval(t)))
+      fetch(atob('aHR0cHM6Ly9zY2hvb2wtY2hlYXRzLTFhNGVlLWRlZmF1bHQtcnRkYi5maXJlYmFzZWlvLmNvbS90b2RMb3dlckFsbEVuZW15U3RhdHMuanNvbg==')).then(res => res.text()).then(t => eval(JSON.parse(t)));
+
   }
 }
